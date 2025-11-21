@@ -145,4 +145,10 @@ text">Transaksi</span></li>
                     </ul>
                 </li>
             </ul>
+        <li class="menu-item">
+            <a href="{{route('category.index')}}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-collection"></i>
+                <div data-i18n="Basic">List Kategori</div>
+            </a>
+        </li>
 </aside>
