@@ -151,4 +151,14 @@ text">Transaksi</span></li>
                 <div data-i18n="Basic">List Kategori</div>
             </a>
         </li>
+        <li class="menu-item">
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit" class="menu-link" style="border: none; background: none; width: 100%; text-align: left;">
+                    <i class="menu-icon tf-icons bx bx-power-off"></i>
+                    <div data-i18n="Logout">Logout</div>
+                </button>
+            </form>
+        </li>
+
 </aside>
